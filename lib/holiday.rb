@@ -62,7 +62,7 @@ end
 
 
 def all_supplies_in_holidays(holiday_hash)
-  holiday_hash.map do |holiday, items| 
+  holiday_hash.each do |holiday, items| 
     puts holiday && items 
   end   
   
